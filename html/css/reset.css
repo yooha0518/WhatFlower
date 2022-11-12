@@ -1,0 +1,30 @@
+body, div, ul, li, dl, dd, dt, ol, h1, h2, h3, h4, h5, h6, 
+input, fieldset, legend, p, select, table, th, td, tr, textarea, 
+form, figure, figcaption,img, article{
+    margin: 0;padding: 0; text-decoration: none;font-weight:normal;
+}
+
+/* 제목 태그 초기화 */
+h1, h2, h3, h4, h5, h6 {font-size: 13px; font-weight: normal;}
+
+/* 아이콘 초기화 */
+i{color:black;}
+
+
+/* input 초기화*/
+input[type=submit]{
+    border:none;
+    height: 50px;
+    width: 20%;
+    border-radius: 8px;
+}
+input[type=submit]:hover{
+    background:rgb(163, 184, 179);
+}
+
+input[type=text]{
+    border:none;
+    height: 50px;
+    width: 40%;
+    border-radius: 8px;
+}
